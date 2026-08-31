@@ -281,29 +281,3 @@ retail-sales-eda-python/
 │   └── sales_profit_comparison.png
 │
 └── README.md
-
-▶️ How to Run the Project
-1. Clone the repository
-git clone https://github.com/shagena-data/retail-sales-eda-python.git
-
-2. Navigate to the project
-cd retail-sales-eda-python
-
-3. Install the required libraries
-pip install pandas numpy matplotlib seaborn jupyter
-
-4. Launch Jupyter Notebook
-jupyter notebook
-
-5. Open the notebook
-notebook/Retail_Sales_EDA.ipynb
-
-# 🏁 Conclusion
-
-This project demonstrates how Python can be used to perform exploratory data analysis and transform raw retail sales data into meaningful business insights.
-
-Through data cleaning, exploratory analysis, customer analysis, order analysis, time analysis, and visualization, the project identifies important patterns in sales and profitability.
-
-The analysis highlights the strongest categories, cities, products, customers, and months while also identifying areas with lower performance.
-
-Overall, this project demonstrates practical skills in **Python, Pandas, NumPy, Matplotlib, Seaborn, exploratory data analysis, data visualization, and business insight generation**.
