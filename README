@@ -1,1 +1,309 @@
+# 📊 Retail Sales Exploratory Data Analysis using Python
 
+## 📌 Project Overview
+
+This project performs an Exploratory Data Analysis (EDA) of retail sales data using Python.
+
+The analysis focuses on understanding sales and profit performance across customers, cities, product categories, products, orders, and months.
+
+The project transforms raw retail sales data into meaningful business insights using Python-based data analysis and visualization techniques.
+
+---
+
+## 🎯 Business Objective
+
+The objective of this project is to analyze retail sales data and identify important patterns in sales, profit, customer behavior, product performance, category performance, city performance, and monthly trends.
+
+The analysis helps identify top-performing and underperforming areas and provides insights that can support data-driven business decisions.
+
+---
+
+## 📂 Dataset Overview
+
+The dataset contains **20 retail order records** covering the period from **January 2025 to August 2025**.
+
+### Dataset Columns
+
+| Column | Description |
+|---|---|
+| Order_ID | Unique identifier for each order |
+| Customer | Customer name |
+| City | City where the order was placed |
+| Category | Product category |
+| Product | Product purchased |
+| Quantity | Number of units ordered |
+| Sales | Sales value of the order |
+| Profit | Profit generated from the order |
+| Order_Date | Date of the order |
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 🔍 Analysis Performed
+
+### 📊 Overall Business Analysis
+
+- Total Sales
+- Total Profit
+- Average Sales per Order
+- Average Profit per Order
+- Highest-Value Order
+- Lowest-Value Order
+- Highest-Profit Order
+- Lowest-Profit Order
+
+### 🏷️ Category Analysis
+
+- Sales by Category
+- Profit by Category
+- Sales Contribution by Category
+- Best Performing Category
+
+### 🏙️ City Analysis
+
+- Sales by City
+- Profit by City
+- Orders by City
+- Highest Sales City
+- Highest Profit City
+
+### 📦 Product Analysis
+
+- Top Products by Sales
+- Top Products by Profit
+- Orders by Product
+- Lowest-Sales Product
+- Lowest-Profit Product
+
+### 👤 Customer Analysis
+
+- Highest-Sales Customer
+- Highest-Profit Customer
+- Average Order Value by Customer
+- Customer Sales Benchmarking
+- Highest AOV Customer
+- Customer with Most Orders
+- Customer Order Frequency
+
+### 🧾 Order Analysis
+
+- Total Number of Orders
+- Total Quantity Sold
+- Average Quantity per Order
+- Highest-Value Order
+- Lowest-Value Order
+- Average Order Value
+- Orders by City
+- Orders by Category
+- Most Profitable Order
+- Order Profit Margin
+- Highest Profit-Margin Order
+- Orders by Product
+- Order Summary
+
+### 📅 Time Analysis
+
+- Monthly Sales
+- Monthly Profit
+- Highest-Sales Month
+- Lowest-Sales Month
+- Highest-Profit Month
+- Lowest-Profit Month
+- Monthly Profit Margin
+- Monthly Sales Contribution
+
+---
+
+# 📈 Data Visualizations
+
+## Sales by City
+
+![Sales by City](images/sales_by_city.png)
+
+## Profit by City
+
+![Profit by City](images/profit_by_city.png)
+
+## Monthly Sales Trend
+
+![Monthly Sales](images/monthly_sales.png)
+
+## Monthly Profit Trend
+
+![Monthly Profit](images/monthly_profit.png)
+
+## Top Products by Sales
+
+![Top Products by Sales](images/top_products_sales.png)
+
+## Top Customers by Sales
+
+![Top Customers by Sales](images/top_customers_sales.png)
+
+## Sales Distribution
+
+![Sales Distribution](images/sales_distribution.png)
+
+## Profit Distribution
+
+![Profit Distribution](images/profit_distribution.png)
+
+## Quantity Distribution
+
+![Quantity Distribution](images/quantity_distribution.png)
+
+## Sales vs Profit
+
+![Sales vs Profit](images/sales_vs_profit.png)
+
+## Quantity vs Sales
+
+![Quantity vs Sales](images/quantity_vs_sales.png)
+
+## Category Performance
+
+![Category Performance](images/category_performance.png)
+
+## Sales & Profit Comparison
+
+![Sales and Profit Comparison](images/sales_profit_comparison.png)
+
+---
+
+# 💡 Key Business Insights
+
+### 💰 Overall Performance
+
+- Total Sales: **682,500**
+- Total Profit: **110,700**
+- Average Sales per Order: **34,125**
+- Highest-Value Order: **110,000**
+- Lowest-Value Order: **3,000**
+
+### 🏷️ Category Performance
+
+**Electronics** was the best-performing category.
+
+- Sales: **495,000**
+- Sales Contribution: **72.53%**
+
+### 🏙️ City Performance
+
+**Chennai** generated the highest sales and profit.
+
+- Total Sales: **390,000**
+- Total Profit: **61,300**
+- Sales Contribution: **57.14%**
+- Profit Contribution: **55.38%**
+
+### 📦 Product Performance
+
+The top three products by sales were:
+
+| Rank | Product | Sales |
+|---|---|---:|
+| 1 | Laptop | 265,000 |
+| 2 | Mobile | 137,000 |
+| 3 | Table | 89,000 |
+
+### 👤 Customer Performance
+
+**Priya** was the highest-sales customer.
+
+- Sales: **194,000**
+- Profit: **31,000**
+- Highest AOV: **64,666.67**
+
+### 📅 Monthly Performance
+
+**January** recorded the highest sales and profit.
+
+- Sales: **169,000**
+- Profit: **26,000**
+
+**July** recorded the lowest sales and profit.
+
+- Sales: **25,200**
+- Profit: **4,800**
+
+However, July achieved the highest profit margin of **19.05%**, showing that lower sales volume does not necessarily mean lower profitability.
+
+---
+
+# 📌 Key Takeaways
+
+The analysis identified several important business patterns:
+
+- Electronics is the major sales-generating category.
+- Chennai is the strongest-performing city.
+- Laptop is the top-selling product.
+- Priya is the highest-sales customer.
+- January is the strongest month based on total sales and profit.
+- July has the lowest sales and profit but the highest profit margin.
+- Sales volume and profitability do not always move in the same direction.
+
+---
+
+# 📁 Project Structure
+
+```text
+retail-sales-eda-python/
+│
+├── data/
+│   └── retail_sales.csv
+│
+├── notebook/
+│   └── Retail_Sales_EDA.ipynb
+│
+├── images/
+│   ├── sales_by_city.png
+│   ├── profit_by_city.png
+│   ├── monthly_sales.png
+│   ├── monthly_profit.png
+│   ├── top_products_sales.png
+│   ├── top_customers_sales.png
+│   ├── sales_distribution.png
+│   ├── profit_distribution.png
+│   ├── quantity_distribution.png
+│   ├── sales_vs_profit.png
+│   ├── quantity_vs_sales.png
+│   ├── category_performance.png
+│   └── sales_profit_comparison.png
+│
+└── README.md
+
+▶️ How to Run the Project
+1. Clone the repository
+git clone https://github.com/shagena-data/retail-sales-eda-python.git
+
+2. Navigate to the project
+cd retail-sales-eda-python
+
+3. Install the required libraries
+pip install pandas numpy matplotlib seaborn jupyter
+
+4. Launch Jupyter Notebook
+jupyter notebook
+
+5. Open the notebook
+notebook/Retail_Sales_EDA.ipynb
+
+# 🏁 Conclusion
+
+This project demonstrates how Python can be used to perform exploratory data analysis and transform raw retail sales data into meaningful business insights.
+
+Through data cleaning, exploratory analysis, customer analysis, order analysis, time analysis, and visualization, the project identifies important patterns in sales and profitability.
+
+The analysis highlights the strongest categories, cities, products, customers, and months while also identifying areas with lower performance.
+
+Overall, this project demonstrates practical skills in **Python, Pandas, NumPy, Matplotlib, Seaborn, exploratory data analysis, data visualization, and business insight generation**.
