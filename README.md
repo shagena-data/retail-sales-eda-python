@@ -166,10 +166,6 @@ The dataset contains **20 retail order records** covering the period from **Janu
 
 ![Sales vs Profit](images/sales_vs_profit.png)
 
-## Quantity vs Sales
-
-![Quantity vs Sales](images/quantity_vs_sales.png)
-
 ## Category Performance
 
 ![Category Performance](images/category_performance.png)
